@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital@1&family=Nunito:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Besley", serif;
+  font-family: "Nunito", sans-serif;
+}
+body {
+  background-color: #f7f6f2;
+  margin: 20px, 20px;
+}
+.about {
+  width: 100%;
+
+  padding: 25px 10px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+.title h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.about .sectionBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.about .sectionBox .imageBox,
+.about .sectionBox .aboutme {
+  width: 50%;
+  padding: 10px;
+}
+.about .sectionBox .imageBox img {
+  width: 100%;
+  height: 70%;
+}
+.sectionBox .aboutme {
+  height: 70%;
+}
+.aboutme .title {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+hr {
+  border-style: solid none none;
+  border-width: 5px;
+  width: 10%;
+  color: burlywood;
+}
+
+.aboutme .content {
+  margin-top: 20px;
+}
+form {
+  padding: 50px;
+}
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 2px;
+  border: 1px;
+  padding: 10px;
+  box-shadow: 0 5px 2px #888888;
+  margin: 0 50px 50px;
+  border-top: none;
+}
+.line {
+  display: flex;
+  justify-content: center;
+}
+.contactMe .contentBox {
+  width: 70%;
+}
+.contactMe .contentBox .title {
+  margin-bottom: 50px;
+}
+
+.contact .input-details {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  width: 500px;
+  overflow: hidden;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+.submitBox {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  background-color: #71b7e6;
+  color: #fff;
+  border-radius: 10%;
+  font-size: 15px;
+  padding: 5px 50px;
+  font-weight: 800;
+}
+label {
+  font-size: 15px;
+  font-weight: 800;
+}
+form .input-details {
+  padding: 20px;
+}
